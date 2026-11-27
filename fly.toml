@@ -1,4 +1,5 @@
-# Fly.io settings for the How AI Works course. `fly launch` adds the app name.
+# Fly.io settings for the How AI Works course.
+app = 'ai-hub-h-jcdg'
 primary_region = 'ord'
 
 [http_service]
