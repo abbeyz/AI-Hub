@@ -2,7 +2,7 @@
 primary_region = 'ord'
 
 [http_service]
-  internal_port = 80          # nginx listens on 80; Fly's default assumes 8080
+  internal_port = 8080        # nginx is set to listen on 8080 (see nginx.conf)
   force_https = true
   auto_stop_machines = 'stop'
   auto_start_machines = true
